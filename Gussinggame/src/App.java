@@ -8,7 +8,7 @@ public class App {
 //Assigning the required integers.
 int answer, guess, score,i;
 int k = 5;
-score = 50;
+score = 60;
 
 //Assigning the classes.
 Scanner input = new Scanner(System.in);
@@ -17,6 +17,7 @@ answer = rand.nextInt(101);
 
 //Instructions and heading of the game.
 System.out.println("!!!Gussing Game!!!");
+System.out.println("You have 6 attemps to guess a computer generated number.")
 
 //looping.
 for (i = 0; k > i; i++) {
